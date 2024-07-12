@@ -62,23 +62,23 @@ __ref = this;
 RDebugUtils.currentModule="b4xmainpage";
 if (Debug.shouldDelegate(ba, "btnanimalpage_click", false))
 	 {return ((String) Debug.delegate(ba, "btnanimalpage_click", null));}
-RDebugUtils.currentLine=15269888;
- //BA.debugLineNum = 15269888;BA.debugLine="Private Sub btnAnimalPage_Click";
-RDebugUtils.currentLine=15269889;
- //BA.debugLineNum = 15269889;BA.debugLine="If animalPage.IsInitialized = False Then";
+RDebugUtils.currentLine=851968;
+ //BA.debugLineNum = 851968;BA.debugLine="Private Sub btnAnimalPage_Click";
+RDebugUtils.currentLine=851969;
+ //BA.debugLineNum = 851969;BA.debugLine="If animalPage.IsInitialized = False Then";
 if (__ref._animalpage /*b4a.example.animalpage*/ .IsInitialized /*boolean*/ ()==__c.False) { 
-RDebugUtils.currentLine=15269890;
- //BA.debugLineNum = 15269890;BA.debugLine="animalPage.Initialize";
+RDebugUtils.currentLine=851970;
+ //BA.debugLineNum = 851970;BA.debugLine="animalPage.Initialize";
 __ref._animalpage /*b4a.example.animalpage*/ ._initialize /*Object*/ (null,ba);
-RDebugUtils.currentLine=15269891;
- //BA.debugLineNum = 15269891;BA.debugLine="B4XPages.AddPage(\"Animales\", animalPage)";
+RDebugUtils.currentLine=851971;
+ //BA.debugLineNum = 851971;BA.debugLine="B4XPages.AddPage(\"Animales\", animalPage)";
 _b4xpages._addpage /*String*/ (ba,"Animales",(Object)(__ref._animalpage /*b4a.example.animalpage*/ ));
  };
-RDebugUtils.currentLine=15269894;
- //BA.debugLineNum = 15269894;BA.debugLine="B4XPages.ShowPage(\"Animales\")";
+RDebugUtils.currentLine=851974;
+ //BA.debugLineNum = 851974;BA.debugLine="B4XPages.ShowPage(\"Animales\")";
 _b4xpages._showpage /*String*/ (ba,"Animales");
-RDebugUtils.currentLine=15269895;
- //BA.debugLineNum = 15269895;BA.debugLine="End Sub";
+RDebugUtils.currentLine=851975;
+ //BA.debugLineNum = 851975;BA.debugLine="End Sub";
 return "";
 }
 public String  _btnespeciespage_click(b4a.example.b4xmainpage __ref) throws Exception{
@@ -86,23 +86,23 @@ __ref = this;
 RDebugUtils.currentModule="b4xmainpage";
 if (Debug.shouldDelegate(ba, "btnespeciespage_click", false))
 	 {return ((String) Debug.delegate(ba, "btnespeciespage_click", null));}
-RDebugUtils.currentLine=13697024;
- //BA.debugLineNum = 13697024;BA.debugLine="Private Sub btnEspeciesPage_Click";
-RDebugUtils.currentLine=13697025;
- //BA.debugLineNum = 13697025;BA.debugLine="If especiePage.IsInitialized = False Then";
+RDebugUtils.currentLine=786432;
+ //BA.debugLineNum = 786432;BA.debugLine="Private Sub btnEspeciesPage_Click";
+RDebugUtils.currentLine=786433;
+ //BA.debugLineNum = 786433;BA.debugLine="If especiePage.IsInitialized = False Then";
 if (__ref._especiepage /*b4a.example.especiepage*/ .IsInitialized /*boolean*/ ()==__c.False) { 
-RDebugUtils.currentLine=13697026;
- //BA.debugLineNum = 13697026;BA.debugLine="especiePage.Initialize";
+RDebugUtils.currentLine=786434;
+ //BA.debugLineNum = 786434;BA.debugLine="especiePage.Initialize";
 __ref._especiepage /*b4a.example.especiepage*/ ._initialize /*Object*/ (null,ba);
-RDebugUtils.currentLine=13697027;
- //BA.debugLineNum = 13697027;BA.debugLine="B4XPages.AddPage(\"Especies\", especiePage)";
+RDebugUtils.currentLine=786435;
+ //BA.debugLineNum = 786435;BA.debugLine="B4XPages.AddPage(\"Especies\", especiePage)";
 _b4xpages._addpage /*String*/ (ba,"Especies",(Object)(__ref._especiepage /*b4a.example.especiepage*/ ));
  };
-RDebugUtils.currentLine=13697030;
- //BA.debugLineNum = 13697030;BA.debugLine="B4XPages.ShowPage(\"Especies\")";
+RDebugUtils.currentLine=786438;
+ //BA.debugLineNum = 786438;BA.debugLine="B4XPages.ShowPage(\"Especies\")";
 _b4xpages._showpage /*String*/ (ba,"Especies");
-RDebugUtils.currentLine=13697031;
- //BA.debugLineNum = 13697031;BA.debugLine="End Sub";
+RDebugUtils.currentLine=786439;
+ //BA.debugLineNum = 786439;BA.debugLine="End Sub";
 return "";
 }
 public String  _class_globals(b4a.example.b4xmainpage __ref) throws Exception{

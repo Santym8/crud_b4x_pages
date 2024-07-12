@@ -39,34 +39,34 @@ public b4a.example.starter _starter = null;
 public b4a.example.b4xpages _b4xpages = null;
 public b4a.example.b4xcollections _b4xcollections = null;
 public b4a.example.httputils2service _httputils2service = null;
-public String  _class_globals(b4a.example.animal __ref) throws Exception{
-__ref = this;
-RDebugUtils.currentModule="animal";
-RDebugUtils.currentLine=9895936;
- //BA.debugLineNum = 9895936;BA.debugLine="Sub Class_Globals";
-RDebugUtils.currentLine=9895937;
- //BA.debugLineNum = 9895937;BA.debugLine="Public id As Int";
-_id = 0;
-RDebugUtils.currentLine=9895938;
- //BA.debugLineNum = 9895938;BA.debugLine="Public nombre As String";
-_nombre = "";
-RDebugUtils.currentLine=9895939;
- //BA.debugLineNum = 9895939;BA.debugLine="Public especieId As Int";
-_especieid = 0;
-RDebugUtils.currentLine=9895940;
- //BA.debugLineNum = 9895940;BA.debugLine="End Sub";
-return "";
-}
 public String  _initialize(b4a.example.animal __ref,anywheresoftware.b4a.BA _ba) throws Exception{
 __ref = this;
 innerInitialize(_ba);
 RDebugUtils.currentModule="animal";
 if (Debug.shouldDelegate(ba, "initialize", false))
 	 {return ((String) Debug.delegate(ba, "initialize", new Object[] {_ba}));}
-RDebugUtils.currentLine=9961472;
- //BA.debugLineNum = 9961472;BA.debugLine="Public Sub Initialize";
-RDebugUtils.currentLine=9961474;
- //BA.debugLineNum = 9961474;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1835008;
+ //BA.debugLineNum = 1835008;BA.debugLine="Public Sub Initialize";
+RDebugUtils.currentLine=1835010;
+ //BA.debugLineNum = 1835010;BA.debugLine="End Sub";
+return "";
+}
+public String  _class_globals(b4a.example.animal __ref) throws Exception{
+__ref = this;
+RDebugUtils.currentModule="animal";
+RDebugUtils.currentLine=1769472;
+ //BA.debugLineNum = 1769472;BA.debugLine="Sub Class_Globals";
+RDebugUtils.currentLine=1769473;
+ //BA.debugLineNum = 1769473;BA.debugLine="Public id As Int";
+_id = 0;
+RDebugUtils.currentLine=1769474;
+ //BA.debugLineNum = 1769474;BA.debugLine="Public nombre As String";
+_nombre = "";
+RDebugUtils.currentLine=1769475;
+ //BA.debugLineNum = 1769475;BA.debugLine="Public especieId As Int";
+_especieid = 0;
+RDebugUtils.currentLine=1769476;
+ //BA.debugLineNum = 1769476;BA.debugLine="End Sub";
 return "";
 }
 }

@@ -48,16 +48,16 @@ innerInitialize(_ba);
 RDebugUtils.currentModule="animalpage";
 if (Debug.shouldDelegate(ba, "initialize", false))
 	 {return ((Object) Debug.delegate(ba, "initialize", new Object[] {_ba}));}
-RDebugUtils.currentLine=14614528;
- //BA.debugLineNum = 14614528;BA.debugLine="Public Sub Initialize As Object";
-RDebugUtils.currentLine=14614529;
- //BA.debugLineNum = 14614529;BA.debugLine="animalService.Initialize";
+RDebugUtils.currentLine=1376256;
+ //BA.debugLineNum = 1376256;BA.debugLine="Public Sub Initialize As Object";
+RDebugUtils.currentLine=1376257;
+ //BA.debugLineNum = 1376257;BA.debugLine="animalService.Initialize";
 __ref._animalservice /*b4a.example.animalesservice*/ ._initialize /*String*/ (null,ba);
-RDebugUtils.currentLine=14614530;
- //BA.debugLineNum = 14614530;BA.debugLine="Return Me";
+RDebugUtils.currentLine=1376258;
+ //BA.debugLineNum = 1376258;BA.debugLine="Return Me";
 if (true) return this;
-RDebugUtils.currentLine=14614531;
- //BA.debugLineNum = 14614531;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1376259;
+ //BA.debugLineNum = 1376259;BA.debugLine="End Sub";
 return null;
 }
 public String  _b4xpage_created(b4a.example.animalpage __ref,anywheresoftware.b4a.objects.B4XViewWrapper _root1) throws Exception{
@@ -65,16 +65,16 @@ __ref = this;
 RDebugUtils.currentModule="animalpage";
 if (Debug.shouldDelegate(ba, "b4xpage_created", false))
 	 {return ((String) Debug.delegate(ba, "b4xpage_created", new Object[] {_root1}));}
-RDebugUtils.currentLine=14680064;
- //BA.debugLineNum = 14680064;BA.debugLine="Private Sub B4XPage_Created (Root1 As B4XView)";
-RDebugUtils.currentLine=14680065;
- //BA.debugLineNum = 14680065;BA.debugLine="Root = Root1";
+RDebugUtils.currentLine=1441792;
+ //BA.debugLineNum = 1441792;BA.debugLine="Private Sub B4XPage_Created (Root1 As B4XView)";
+RDebugUtils.currentLine=1441793;
+ //BA.debugLineNum = 1441793;BA.debugLine="Root = Root1";
 __ref._root /*anywheresoftware.b4a.objects.B4XViewWrapper*/  = _root1;
-RDebugUtils.currentLine=14680067;
- //BA.debugLineNum = 14680067;BA.debugLine="Root.LoadLayout(\"AnimalPage\")";
+RDebugUtils.currentLine=1441795;
+ //BA.debugLineNum = 1441795;BA.debugLine="Root.LoadLayout(\"AnimalPage\")";
 __ref._root /*anywheresoftware.b4a.objects.B4XViewWrapper*/ .LoadLayout("AnimalPage",ba);
-RDebugUtils.currentLine=14680069;
- //BA.debugLineNum = 14680069;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1441797;
+ //BA.debugLineNum = 1441797;BA.debugLine="End Sub";
 return "";
 }
 public void  _btndelete_click(b4a.example.animalpage __ref) throws Exception{
@@ -108,8 +108,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=15073281;
- //BA.debugLineNum = 15073281;BA.debugLine="Try";
+RDebugUtils.currentLine=1572865;
+ //BA.debugLineNum = 1572865;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -123,8 +123,8 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 11;
-RDebugUtils.currentLine=15073282;
- //BA.debugLineNum = 15073282;BA.debugLine="Wait For (animalService.Delete(txtId.Text)) Comp";
+RDebugUtils.currentLine=1572866;
+ //BA.debugLineNum = 1572866;BA.debugLine="Wait For (animalService.Delete(txtId.Text)) Comp";
 parent.__c.WaitFor("complete", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalpage", "btndelete_click"), __ref._animalservice /*b4a.example.animalesservice*/ ._delete /*anywheresoftware.b4a.keywords.Common.ResumableSubWrapper*/ (null,(int)(Double.parseDouble(__ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText()))));
 this.state = 13;
 return;
@@ -133,8 +133,8 @@ case 13:
 this.state = 4;
 _success = (Boolean) result[1];
 ;
-RDebugUtils.currentLine=15073283;
- //BA.debugLineNum = 15073283;BA.debugLine="If success Then";
+RDebugUtils.currentLine=1572867;
+ //BA.debugLineNum = 1572867;BA.debugLine="If success Then";
 if (true) break;
 
 case 4:
@@ -149,25 +149,25 @@ this.state = 8;
 case 6:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15073284;
- //BA.debugLineNum = 15073284;BA.debugLine="txtId.Text = \"\"";
+RDebugUtils.currentLine=1572868;
+ //BA.debugLineNum = 1572868;BA.debugLine="txtId.Text = \"\"";
 __ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(""));
-RDebugUtils.currentLine=15073285;
- //BA.debugLineNum = 15073285;BA.debugLine="txtNombre.Text = \"\"";
+RDebugUtils.currentLine=1572869;
+ //BA.debugLineNum = 1572869;BA.debugLine="txtNombre.Text = \"\"";
 __ref._txtnombre /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(""));
-RDebugUtils.currentLine=15073286;
- //BA.debugLineNum = 15073286;BA.debugLine="txtEspecieId.Text = \"\"";
+RDebugUtils.currentLine=1572870;
+ //BA.debugLineNum = 1572870;BA.debugLine="txtEspecieId.Text = \"\"";
 __ref._txtespecieid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(""));
-RDebugUtils.currentLine=15073288;
- //BA.debugLineNum = 15073288;BA.debugLine="Msgbox(\"Eliminación Exitosa\",\"Éxito\")";
+RDebugUtils.currentLine=1572872;
+ //BA.debugLineNum = 1572872;BA.debugLine="Msgbox(\"Eliminación Exitosa\",\"Éxito\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("Eliminación Exitosa"),BA.ObjectToCharSequence("Éxito"),ba);
  if (true) break;
 
 case 8:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15073290;
- //BA.debugLineNum = 15073290;BA.debugLine="Msgbox(\"No se encontro el registro\",\"Error\")";
+RDebugUtils.currentLine=1572874;
+ //BA.debugLineNum = 1572874;BA.debugLine="Msgbox(\"No se encontro el registro\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("No se encontro el registro"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 
@@ -181,11 +181,11 @@ case 11:
 //C
 this.state = 12;
 this.catchState = 0;
-RDebugUtils.currentLine=15073294;
- //BA.debugLineNum = 15073294;BA.debugLine="Log(LastException)";
-parent.__c.LogImpl("815073294",BA.ObjectToString(parent.__c.LastException(ba)),0);
-RDebugUtils.currentLine=15073295;
- //BA.debugLineNum = 15073295;BA.debugLine="Msgbox(\"Error\",\"Error\")";
+RDebugUtils.currentLine=1572878;
+ //BA.debugLineNum = 1572878;BA.debugLine="Log(LastException)";
+parent.__c.LogImpl("01572878",BA.ObjectToString(parent.__c.LastException(ba)),0);
+RDebugUtils.currentLine=1572879;
+ //BA.debugLineNum = 1572879;BA.debugLine="Msgbox(\"Error\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("Error"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 if (true) break;
@@ -195,8 +195,8 @@ case 12:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=15073298;
- //BA.debugLineNum = 15073298;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1572882;
+ //BA.debugLineNum = 1572882;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -241,8 +241,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=15007745;
- //BA.debugLineNum = 15007745;BA.debugLine="Try";
+RDebugUtils.currentLine=1507329;
+ //BA.debugLineNum = 1507329;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -256,8 +256,8 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 11;
-RDebugUtils.currentLine=15007746;
- //BA.debugLineNum = 15007746;BA.debugLine="Wait For (animalService.ReadById(txtId.Text)) Co";
+RDebugUtils.currentLine=1507330;
+ //BA.debugLineNum = 1507330;BA.debugLine="Wait For (animalService.ReadById(txtId.Text)) Co";
 parent.__c.WaitFor("complete", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalpage", "btnread_click"), __ref._animalservice /*b4a.example.animalesservice*/ ._readbyid /*anywheresoftware.b4a.keywords.Common.ResumableSubWrapper*/ (null,(int)(Double.parseDouble(__ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText()))));
 this.state = 13;
 return;
@@ -266,8 +266,8 @@ case 13:
 this.state = 4;
 _animal = (b4a.example.animal) result[1];
 ;
-RDebugUtils.currentLine=15007748;
- //BA.debugLineNum = 15007748;BA.debugLine="If animal.id <> 0 Then";
+RDebugUtils.currentLine=1507332;
+ //BA.debugLineNum = 1507332;BA.debugLine="If animal.id <> 0 Then";
 if (true) break;
 
 case 4:
@@ -282,22 +282,22 @@ this.state = 8;
 case 6:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15007749;
- //BA.debugLineNum = 15007749;BA.debugLine="txtId.Text = animal.id";
+RDebugUtils.currentLine=1507333;
+ //BA.debugLineNum = 1507333;BA.debugLine="txtId.Text = animal.id";
 __ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(_animal._id /*int*/ ));
-RDebugUtils.currentLine=15007750;
- //BA.debugLineNum = 15007750;BA.debugLine="txtNombre.Text = animal.nombre";
+RDebugUtils.currentLine=1507334;
+ //BA.debugLineNum = 1507334;BA.debugLine="txtNombre.Text = animal.nombre";
 __ref._txtnombre /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(_animal._nombre /*String*/ ));
-RDebugUtils.currentLine=15007751;
- //BA.debugLineNum = 15007751;BA.debugLine="txtEspecieId.Text = animal.especieId";
+RDebugUtils.currentLine=1507335;
+ //BA.debugLineNum = 1507335;BA.debugLine="txtEspecieId.Text = animal.especieId";
 __ref._txtespecieid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(_animal._especieid /*int*/ ));
  if (true) break;
 
 case 8:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15007754;
- //BA.debugLineNum = 15007754;BA.debugLine="Msgbox(\"No hay datos\",\"Error\")";
+RDebugUtils.currentLine=1507338;
+ //BA.debugLineNum = 1507338;BA.debugLine="Msgbox(\"No hay datos\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("No hay datos"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 
@@ -311,11 +311,11 @@ case 11:
 //C
 this.state = 12;
 this.catchState = 0;
-RDebugUtils.currentLine=15007758;
- //BA.debugLineNum = 15007758;BA.debugLine="Log(LastException)";
-parent.__c.LogImpl("815007758",BA.ObjectToString(parent.__c.LastException(ba)),0);
-RDebugUtils.currentLine=15007759;
- //BA.debugLineNum = 15007759;BA.debugLine="Msgbox(\"No hay datos\",\"Error\")";
+RDebugUtils.currentLine=1507342;
+ //BA.debugLineNum = 1507342;BA.debugLine="Log(LastException)";
+parent.__c.LogImpl("01507342",BA.ObjectToString(parent.__c.LastException(ba)),0);
+RDebugUtils.currentLine=1507343;
+ //BA.debugLineNum = 1507343;BA.debugLine="Msgbox(\"No hay datos\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("No hay datos"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 if (true) break;
@@ -325,8 +325,8 @@ case 12:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=15007763;
- //BA.debugLineNum = 15007763;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1507347;
+ //BA.debugLineNum = 1507347;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -372,8 +372,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=15204353;
- //BA.debugLineNum = 15204353;BA.debugLine="Try";
+RDebugUtils.currentLine=1703937;
+ //BA.debugLineNum = 1703937;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -387,17 +387,17 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 11;
-RDebugUtils.currentLine=15204354;
- //BA.debugLineNum = 15204354;BA.debugLine="Dim animalToCreate As Animal";
+RDebugUtils.currentLine=1703938;
+ //BA.debugLineNum = 1703938;BA.debugLine="Dim animalToCreate As Animal";
 _animaltocreate = new b4a.example.animal();
-RDebugUtils.currentLine=15204356;
- //BA.debugLineNum = 15204356;BA.debugLine="animalToCreate.nombre = txtNombre.Text";
+RDebugUtils.currentLine=1703940;
+ //BA.debugLineNum = 1703940;BA.debugLine="animalToCreate.nombre = txtNombre.Text";
 _animaltocreate._nombre /*String*/  = __ref._txtnombre /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText();
-RDebugUtils.currentLine=15204357;
- //BA.debugLineNum = 15204357;BA.debugLine="animalToCreate.especieId = txtEspecieId.Text";
+RDebugUtils.currentLine=1703941;
+ //BA.debugLineNum = 1703941;BA.debugLine="animalToCreate.especieId = txtEspecieId.Text";
 _animaltocreate._especieid /*int*/  = (int)(Double.parseDouble(__ref._txtespecieid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText()));
-RDebugUtils.currentLine=15204359;
- //BA.debugLineNum = 15204359;BA.debugLine="Wait For (animalService.Create(animalToCreate))";
+RDebugUtils.currentLine=1703943;
+ //BA.debugLineNum = 1703943;BA.debugLine="Wait For (animalService.Create(animalToCreate))";
 parent.__c.WaitFor("complete", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalpage", "btnsave_click"), __ref._animalservice /*b4a.example.animalesservice*/ ._create /*anywheresoftware.b4a.keywords.Common.ResumableSubWrapper*/ (null,_animaltocreate));
 this.state = 13;
 return;
@@ -406,8 +406,8 @@ case 13:
 this.state = 4;
 _animalresult = (b4a.example.animal) result[1];
 ;
-RDebugUtils.currentLine=15204360;
- //BA.debugLineNum = 15204360;BA.debugLine="If animalResult <> Null Then";
+RDebugUtils.currentLine=1703944;
+ //BA.debugLineNum = 1703944;BA.debugLine="If animalResult <> Null Then";
 if (true) break;
 
 case 4:
@@ -422,19 +422,19 @@ this.state = 8;
 case 6:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15204361;
- //BA.debugLineNum = 15204361;BA.debugLine="txtId.Text = animalResult.id";
+RDebugUtils.currentLine=1703945;
+ //BA.debugLineNum = 1703945;BA.debugLine="txtId.Text = animalResult.id";
 __ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .setText(BA.ObjectToCharSequence(_animalresult._id /*int*/ ));
-RDebugUtils.currentLine=15204362;
- //BA.debugLineNum = 15204362;BA.debugLine="Msgbox(\"Creación Exitosa\",\"Éxito\")";
+RDebugUtils.currentLine=1703946;
+ //BA.debugLineNum = 1703946;BA.debugLine="Msgbox(\"Creación Exitosa\",\"Éxito\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("Creación Exitosa"),BA.ObjectToCharSequence("Éxito"),ba);
  if (true) break;
 
 case 8:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15204364;
- //BA.debugLineNum = 15204364;BA.debugLine="Msgbox(\"No se pudo crear el registro\",\"Error\")";
+RDebugUtils.currentLine=1703948;
+ //BA.debugLineNum = 1703948;BA.debugLine="Msgbox(\"No se pudo crear el registro\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("No se pudo crear el registro"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 
@@ -448,11 +448,11 @@ case 11:
 //C
 this.state = 12;
 this.catchState = 0;
-RDebugUtils.currentLine=15204368;
- //BA.debugLineNum = 15204368;BA.debugLine="Log(LastException)";
-parent.__c.LogImpl("815204368",BA.ObjectToString(parent.__c.LastException(ba)),0);
-RDebugUtils.currentLine=15204369;
- //BA.debugLineNum = 15204369;BA.debugLine="Msgbox(\"Error\",\"Error\")";
+RDebugUtils.currentLine=1703952;
+ //BA.debugLineNum = 1703952;BA.debugLine="Log(LastException)";
+parent.__c.LogImpl("01703952",BA.ObjectToString(parent.__c.LastException(ba)),0);
+RDebugUtils.currentLine=1703953;
+ //BA.debugLineNum = 1703953;BA.debugLine="Msgbox(\"Error\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("Error"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 if (true) break;
@@ -462,8 +462,8 @@ case 12:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=15204372;
- //BA.debugLineNum = 15204372;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1703956;
+ //BA.debugLineNum = 1703956;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -509,8 +509,8 @@ return;
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=15138817;
- //BA.debugLineNum = 15138817;BA.debugLine="Try";
+RDebugUtils.currentLine=1638401;
+ //BA.debugLineNum = 1638401;BA.debugLine="Try";
 if (true) break;
 
 case 1:
@@ -524,20 +524,20 @@ case 3:
 //C
 this.state = 4;
 this.catchState = 11;
-RDebugUtils.currentLine=15138818;
- //BA.debugLineNum = 15138818;BA.debugLine="Dim animalToUpdate As Animal";
+RDebugUtils.currentLine=1638402;
+ //BA.debugLineNum = 1638402;BA.debugLine="Dim animalToUpdate As Animal";
 _animaltoupdate = new b4a.example.animal();
-RDebugUtils.currentLine=15138820;
- //BA.debugLineNum = 15138820;BA.debugLine="animalToUpdate.id = txtId.Text";
+RDebugUtils.currentLine=1638404;
+ //BA.debugLineNum = 1638404;BA.debugLine="animalToUpdate.id = txtId.Text";
 _animaltoupdate._id /*int*/  = (int)(Double.parseDouble(__ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText()));
-RDebugUtils.currentLine=15138821;
- //BA.debugLineNum = 15138821;BA.debugLine="animalToUpdate.nombre = txtNombre.Text";
+RDebugUtils.currentLine=1638405;
+ //BA.debugLineNum = 1638405;BA.debugLine="animalToUpdate.nombre = txtNombre.Text";
 _animaltoupdate._nombre /*String*/  = __ref._txtnombre /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText();
-RDebugUtils.currentLine=15138822;
- //BA.debugLineNum = 15138822;BA.debugLine="animalToUpdate.especieId = txtEspecieId.Text";
+RDebugUtils.currentLine=1638406;
+ //BA.debugLineNum = 1638406;BA.debugLine="animalToUpdate.especieId = txtEspecieId.Text";
 _animaltoupdate._especieid /*int*/  = (int)(Double.parseDouble(__ref._txtespecieid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText()));
-RDebugUtils.currentLine=15138824;
- //BA.debugLineNum = 15138824;BA.debugLine="Wait For (animalService.Update(txtId.Text, anima";
+RDebugUtils.currentLine=1638408;
+ //BA.debugLineNum = 1638408;BA.debugLine="Wait For (animalService.Update(txtId.Text, anima";
 parent.__c.WaitFor("complete", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalpage", "btnupdate_click"), __ref._animalservice /*b4a.example.animalesservice*/ ._update /*anywheresoftware.b4a.keywords.Common.ResumableSubWrapper*/ (null,(int)(Double.parseDouble(__ref._txtid /*anywheresoftware.b4a.objects.EditTextWrapper*/ .getText())),_animaltoupdate));
 this.state = 13;
 return;
@@ -546,8 +546,8 @@ case 13:
 this.state = 4;
 _success = (Boolean) result[1];
 ;
-RDebugUtils.currentLine=15138825;
- //BA.debugLineNum = 15138825;BA.debugLine="If success Then";
+RDebugUtils.currentLine=1638409;
+ //BA.debugLineNum = 1638409;BA.debugLine="If success Then";
 if (true) break;
 
 case 4:
@@ -562,16 +562,16 @@ this.state = 8;
 case 6:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15138826;
- //BA.debugLineNum = 15138826;BA.debugLine="Msgbox(\"Actualización Exitosa\",\"Éxito\")";
+RDebugUtils.currentLine=1638410;
+ //BA.debugLineNum = 1638410;BA.debugLine="Msgbox(\"Actualización Exitosa\",\"Éxito\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("Actualización Exitosa"),BA.ObjectToCharSequence("Éxito"),ba);
  if (true) break;
 
 case 8:
 //C
 this.state = 9;
-RDebugUtils.currentLine=15138828;
- //BA.debugLineNum = 15138828;BA.debugLine="Msgbox(\"No se encontro el registro\",\"Error\")";
+RDebugUtils.currentLine=1638412;
+ //BA.debugLineNum = 1638412;BA.debugLine="Msgbox(\"No se encontro el registro\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("No se encontro el registro"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 
@@ -585,11 +585,11 @@ case 11:
 //C
 this.state = 12;
 this.catchState = 0;
-RDebugUtils.currentLine=15138832;
- //BA.debugLineNum = 15138832;BA.debugLine="Log(LastException)";
-parent.__c.LogImpl("815138832",BA.ObjectToString(parent.__c.LastException(ba)),0);
-RDebugUtils.currentLine=15138833;
- //BA.debugLineNum = 15138833;BA.debugLine="Msgbox(\"Error\",\"Error\")";
+RDebugUtils.currentLine=1638416;
+ //BA.debugLineNum = 1638416;BA.debugLine="Log(LastException)";
+parent.__c.LogImpl("01638416",BA.ObjectToString(parent.__c.LastException(ba)),0);
+RDebugUtils.currentLine=1638417;
+ //BA.debugLineNum = 1638417;BA.debugLine="Msgbox(\"Error\",\"Error\")";
 parent.__c.Msgbox(BA.ObjectToCharSequence("Error"),BA.ObjectToCharSequence("Error"),ba);
  if (true) break;
 if (true) break;
@@ -599,8 +599,8 @@ case 12:
 this.state = -1;
 this.catchState = 0;
 ;
-RDebugUtils.currentLine=15138835;
- //BA.debugLineNum = 15138835;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1638419;
+ //BA.debugLineNum = 1638419;BA.debugLine="End Sub";
 if (true) break;
 }} 
        catch (Exception e0) {
@@ -617,28 +617,28 @@ ba.setLastException(e0);}
 public String  _class_globals(b4a.example.animalpage __ref) throws Exception{
 __ref = this;
 RDebugUtils.currentModule="animalpage";
-RDebugUtils.currentLine=14548992;
- //BA.debugLineNum = 14548992;BA.debugLine="Sub Class_Globals";
-RDebugUtils.currentLine=14548993;
- //BA.debugLineNum = 14548993;BA.debugLine="Private Root As B4XView 'ignore";
+RDebugUtils.currentLine=1310720;
+ //BA.debugLineNum = 1310720;BA.debugLine="Sub Class_Globals";
+RDebugUtils.currentLine=1310721;
+ //BA.debugLineNum = 1310721;BA.debugLine="Private Root As B4XView 'ignore";
 _root = new anywheresoftware.b4a.objects.B4XViewWrapper();
-RDebugUtils.currentLine=14548994;
- //BA.debugLineNum = 14548994;BA.debugLine="Private xui As XUI 'ignore";
+RDebugUtils.currentLine=1310722;
+ //BA.debugLineNum = 1310722;BA.debugLine="Private xui As XUI 'ignore";
 _xui = new anywheresoftware.b4a.objects.B4XViewWrapper.XUI();
-RDebugUtils.currentLine=14548996;
- //BA.debugLineNum = 14548996;BA.debugLine="Private animalService As AnimalesService";
+RDebugUtils.currentLine=1310724;
+ //BA.debugLineNum = 1310724;BA.debugLine="Private animalService As AnimalesService";
 _animalservice = new b4a.example.animalesservice();
-RDebugUtils.currentLine=14548997;
- //BA.debugLineNum = 14548997;BA.debugLine="Private txtId As EditText";
+RDebugUtils.currentLine=1310725;
+ //BA.debugLineNum = 1310725;BA.debugLine="Private txtId As EditText";
 _txtid = new anywheresoftware.b4a.objects.EditTextWrapper();
-RDebugUtils.currentLine=14548998;
- //BA.debugLineNum = 14548998;BA.debugLine="Private txtNombre As EditText";
+RDebugUtils.currentLine=1310726;
+ //BA.debugLineNum = 1310726;BA.debugLine="Private txtNombre As EditText";
 _txtnombre = new anywheresoftware.b4a.objects.EditTextWrapper();
-RDebugUtils.currentLine=14548999;
- //BA.debugLineNum = 14548999;BA.debugLine="Private txtEspecieId As EditText";
+RDebugUtils.currentLine=1310727;
+ //BA.debugLineNum = 1310727;BA.debugLine="Private txtEspecieId As EditText";
 _txtespecieid = new anywheresoftware.b4a.objects.EditTextWrapper();
-RDebugUtils.currentLine=14549000;
- //BA.debugLineNum = 14549000;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1310728;
+ //BA.debugLineNum = 1310728;BA.debugLine="End Sub";
 return "";
 }
 }

@@ -40,13 +40,13 @@ public b4a.example.httputils2service _httputils2service = null;
 public String  _class_globals(b4a.example.animalesservice __ref) throws Exception{
 __ref = this;
 RDebugUtils.currentModule="animalesservice";
-RDebugUtils.currentLine=14155776;
- //BA.debugLineNum = 14155776;BA.debugLine="Sub Class_Globals";
-RDebugUtils.currentLine=14155777;
- //BA.debugLineNum = 14155777;BA.debugLine="Public ApiUrl As String";
+RDebugUtils.currentLine=917504;
+ //BA.debugLineNum = 917504;BA.debugLine="Sub Class_Globals";
+RDebugUtils.currentLine=917505;
+ //BA.debugLineNum = 917505;BA.debugLine="Public ApiUrl As String";
 _apiurl = "";
-RDebugUtils.currentLine=14155778;
- //BA.debugLineNum = 14155778;BA.debugLine="End Sub";
+RDebugUtils.currentLine=917506;
+ //BA.debugLineNum = 917506;BA.debugLine="End Sub";
 return "";
 }
 public anywheresoftware.b4a.keywords.Common.ResumableSubWrapper  _create(b4a.example.animalesservice __ref,b4a.example.animal _animal) throws Exception{
@@ -85,26 +85,26 @@ parent.__c.ReturnFromResumableSub(this,null);return;}
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=14286849;
- //BA.debugLineNum = 14286849;BA.debugLine="Dim json As JSONGenerator";
+RDebugUtils.currentLine=1048577;
+ //BA.debugLineNum = 1048577;BA.debugLine="Dim json As JSONGenerator";
 _json = new anywheresoftware.b4a.objects.collections.JSONParser.JSONGenerator();
-RDebugUtils.currentLine=14286850;
- //BA.debugLineNum = 14286850;BA.debugLine="json.Initialize(CreateMap(\"nombre\": animal.nombre";
+RDebugUtils.currentLine=1048578;
+ //BA.debugLineNum = 1048578;BA.debugLine="json.Initialize(CreateMap(\"nombre\": animal.nombre";
 _json.Initialize(parent.__c.createMap(new Object[] {(Object)("nombre"),(Object)(_animal._nombre /*String*/ ),(Object)("especieId"),(Object)(_animal._especieid /*int*/ )}));
-RDebugUtils.currentLine=14286852;
- //BA.debugLineNum = 14286852;BA.debugLine="Dim apijob As HttpJob";
+RDebugUtils.currentLine=1048580;
+ //BA.debugLineNum = 1048580;BA.debugLine="Dim apijob As HttpJob";
 _apijob = new b4a.example.httpjob();
-RDebugUtils.currentLine=14286853;
- //BA.debugLineNum = 14286853;BA.debugLine="apijob.Initialize(\"\", Me)";
+RDebugUtils.currentLine=1048581;
+ //BA.debugLineNum = 1048581;BA.debugLine="apijob.Initialize(\"\", Me)";
 _apijob._initialize /*String*/ (null,ba,"",parent);
-RDebugUtils.currentLine=14286854;
- //BA.debugLineNum = 14286854;BA.debugLine="apijob.PostString(ApiUrl, json.ToString)";
+RDebugUtils.currentLine=1048582;
+ //BA.debugLineNum = 1048582;BA.debugLine="apijob.PostString(ApiUrl, json.ToString)";
 _apijob._poststring /*String*/ (null,__ref._apiurl /*String*/ ,_json.ToString());
-RDebugUtils.currentLine=14286855;
- //BA.debugLineNum = 14286855;BA.debugLine="apijob.GetRequest.SetContentType(\"application/jso";
+RDebugUtils.currentLine=1048583;
+ //BA.debugLineNum = 1048583;BA.debugLine="apijob.GetRequest.SetContentType(\"application/jso";
 _apijob._getrequest /*anywheresoftware.b4h.okhttp.OkHttpClientWrapper.OkHttpRequest*/ (null).SetContentType("application/json");
-RDebugUtils.currentLine=14286857;
- //BA.debugLineNum = 14286857;BA.debugLine="wait for (apijob) JobDone(resultado As HttpJob)";
+RDebugUtils.currentLine=1048585;
+ //BA.debugLineNum = 1048585;BA.debugLine="wait for (apijob) JobDone(resultado As HttpJob)";
 parent.__c.WaitFor("jobdone", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalesservice", "create"), (Object)(_apijob));
 this.state = 5;
 return;
@@ -113,8 +113,8 @@ case 5:
 this.state = 1;
 _resultado = (b4a.example.httpjob) result[1];
 ;
-RDebugUtils.currentLine=14286859;
- //BA.debugLineNum = 14286859;BA.debugLine="If resultado.Success = False Then";
+RDebugUtils.currentLine=1048587;
+ //BA.debugLineNum = 1048587;BA.debugLine="If resultado.Success = False Then";
 if (true) break;
 
 case 1:
@@ -127,11 +127,11 @@ this.state = 3;
 case 3:
 //C
 this.state = 4;
-RDebugUtils.currentLine=14286860;
- //BA.debugLineNum = 14286860;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
-parent.__c.LogImpl("814286860","Error: "+_resultado._errormessage /*String*/ ,0);
-RDebugUtils.currentLine=14286861;
- //BA.debugLineNum = 14286861;BA.debugLine="Return Null";
+RDebugUtils.currentLine=1048588;
+ //BA.debugLineNum = 1048588;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
+parent.__c.LogImpl("01048588","Error: "+_resultado._errormessage /*String*/ ,0);
+RDebugUtils.currentLine=1048589;
+ //BA.debugLineNum = 1048589;BA.debugLine="Return Null";
 if (true) {
 parent.__c.ReturnFromResumableSub(this,parent.__c.Null);return;};
  if (true) break;
@@ -140,31 +140,31 @@ case 4:
 //C
 this.state = -1;
 ;
-RDebugUtils.currentLine=14286864;
- //BA.debugLineNum = 14286864;BA.debugLine="Dim jsonParser As JSONParser";
+RDebugUtils.currentLine=1048592;
+ //BA.debugLineNum = 1048592;BA.debugLine="Dim jsonParser As JSONParser";
 _jsonparser = new anywheresoftware.b4a.objects.collections.JSONParser();
-RDebugUtils.currentLine=14286865;
- //BA.debugLineNum = 14286865;BA.debugLine="jsonParser.Initialize(resultado.GetString)";
+RDebugUtils.currentLine=1048593;
+ //BA.debugLineNum = 1048593;BA.debugLine="jsonParser.Initialize(resultado.GetString)";
 _jsonparser.Initialize(_resultado._getstring /*String*/ (null));
-RDebugUtils.currentLine=14286866;
- //BA.debugLineNum = 14286866;BA.debugLine="Dim map As Map = jsonParser.NextObject";
+RDebugUtils.currentLine=1048594;
+ //BA.debugLineNum = 1048594;BA.debugLine="Dim map As Map = jsonParser.NextObject";
 _map = new anywheresoftware.b4a.objects.collections.Map();
 _map = _jsonparser.NextObject();
-RDebugUtils.currentLine=14286868;
- //BA.debugLineNum = 14286868;BA.debugLine="animal.id = map.Get(\"id\")";
+RDebugUtils.currentLine=1048596;
+ //BA.debugLineNum = 1048596;BA.debugLine="animal.id = map.Get(\"id\")";
 _animal._id /*int*/  = (int)(BA.ObjectToNumber(_map.Get((Object)("id"))));
-RDebugUtils.currentLine=14286869;
- //BA.debugLineNum = 14286869;BA.debugLine="animal.nombre = map.Get(\"nombre\")";
+RDebugUtils.currentLine=1048597;
+ //BA.debugLineNum = 1048597;BA.debugLine="animal.nombre = map.Get(\"nombre\")";
 _animal._nombre /*String*/  = BA.ObjectToString(_map.Get((Object)("nombre")));
-RDebugUtils.currentLine=14286870;
- //BA.debugLineNum = 14286870;BA.debugLine="animal.especieId = map.Get(\"especieId\")";
+RDebugUtils.currentLine=1048598;
+ //BA.debugLineNum = 1048598;BA.debugLine="animal.especieId = map.Get(\"especieId\")";
 _animal._especieid /*int*/  = (int)(BA.ObjectToNumber(_map.Get((Object)("especieId"))));
-RDebugUtils.currentLine=14286872;
- //BA.debugLineNum = 14286872;BA.debugLine="Return animal";
+RDebugUtils.currentLine=1048600;
+ //BA.debugLineNum = 1048600;BA.debugLine="Return animal";
 if (true) {
 parent.__c.ReturnFromResumableSub(this,(Object)(_animal));return;};
-RDebugUtils.currentLine=14286873;
- //BA.debugLineNum = 14286873;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1048601;
+ //BA.debugLineNum = 1048601;BA.debugLine="End Sub";
 if (true) break;
 
             }
@@ -204,17 +204,17 @@ parent.__c.ReturnFromResumableSub(this,null);return;}
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=14483457;
- //BA.debugLineNum = 14483457;BA.debugLine="Dim apijob As HttpJob";
+RDebugUtils.currentLine=1245185;
+ //BA.debugLineNum = 1245185;BA.debugLine="Dim apijob As HttpJob";
 _apijob = new b4a.example.httpjob();
-RDebugUtils.currentLine=14483458;
- //BA.debugLineNum = 14483458;BA.debugLine="apijob.Initialize(\"\", Me)";
+RDebugUtils.currentLine=1245186;
+ //BA.debugLineNum = 1245186;BA.debugLine="apijob.Initialize(\"\", Me)";
 _apijob._initialize /*String*/ (null,ba,"",parent);
-RDebugUtils.currentLine=14483459;
- //BA.debugLineNum = 14483459;BA.debugLine="apijob.Delete(ApiUrl & \"/\" & id)";
+RDebugUtils.currentLine=1245187;
+ //BA.debugLineNum = 1245187;BA.debugLine="apijob.Delete(ApiUrl & \"/\" & id)";
 _apijob._delete /*String*/ (null,__ref._apiurl /*String*/ +"/"+BA.NumberToString(_id));
-RDebugUtils.currentLine=14483460;
- //BA.debugLineNum = 14483460;BA.debugLine="Wait For (apijob) JobDone(resultado As HttpJob)";
+RDebugUtils.currentLine=1245188;
+ //BA.debugLineNum = 1245188;BA.debugLine="Wait For (apijob) JobDone(resultado As HttpJob)";
 parent.__c.WaitFor("jobdone", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalesservice", "delete"), (Object)(_apijob));
 this.state = 5;
 return;
@@ -223,8 +223,8 @@ case 5:
 this.state = 1;
 _resultado = (b4a.example.httpjob) result[1];
 ;
-RDebugUtils.currentLine=14483462;
- //BA.debugLineNum = 14483462;BA.debugLine="If resultado.Success = False Then";
+RDebugUtils.currentLine=1245190;
+ //BA.debugLineNum = 1245190;BA.debugLine="If resultado.Success = False Then";
 if (true) break;
 
 case 1:
@@ -237,21 +237,21 @@ this.state = 3;
 case 3:
 //C
 this.state = 4;
-RDebugUtils.currentLine=14483463;
- //BA.debugLineNum = 14483463;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
-parent.__c.LogImpl("814483463","Error: "+_resultado._errormessage /*String*/ ,0);
+RDebugUtils.currentLine=1245191;
+ //BA.debugLineNum = 1245191;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
+parent.__c.LogImpl("01245191","Error: "+_resultado._errormessage /*String*/ ,0);
  if (true) break;
 
 case 4:
 //C
 this.state = -1;
 ;
-RDebugUtils.currentLine=14483466;
- //BA.debugLineNum = 14483466;BA.debugLine="Return resultado.Success";
+RDebugUtils.currentLine=1245194;
+ //BA.debugLineNum = 1245194;BA.debugLine="Return resultado.Success";
 if (true) {
 parent.__c.ReturnFromResumableSub(this,(Object)(_resultado._success /*boolean*/ ));return;};
-RDebugUtils.currentLine=14483467;
- //BA.debugLineNum = 14483467;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1245195;
+ //BA.debugLineNum = 1245195;BA.debugLine="End Sub";
 if (true) break;
 
             }
@@ -264,13 +264,13 @@ innerInitialize(_ba);
 RDebugUtils.currentModule="animalesservice";
 if (Debug.shouldDelegate(ba, "initialize", false))
 	 {return ((String) Debug.delegate(ba, "initialize", new Object[] {_ba}));}
-RDebugUtils.currentLine=14221312;
- //BA.debugLineNum = 14221312;BA.debugLine="Public Sub Initialize";
-RDebugUtils.currentLine=14221313;
- //BA.debugLineNum = 14221313;BA.debugLine="ApiUrl = \"https://utn-cloud-animales.azurewebsite";
+RDebugUtils.currentLine=983040;
+ //BA.debugLineNum = 983040;BA.debugLine="Public Sub Initialize";
+RDebugUtils.currentLine=983041;
+ //BA.debugLineNum = 983041;BA.debugLine="ApiUrl = \"https://utn-cloud-animales.azurewebsite";
 __ref._apiurl /*String*/  = "https://utn-cloud-animales.azurewebsites.net/api/Animals";
-RDebugUtils.currentLine=14221314;
- //BA.debugLineNum = 14221314;BA.debugLine="End Sub";
+RDebugUtils.currentLine=983042;
+ //BA.debugLineNum = 983042;BA.debugLine="End Sub";
 return "";
 }
 public anywheresoftware.b4a.keywords.Common.ResumableSubWrapper  _readbyid(b4a.example.animalesservice __ref,int _id) throws Exception{
@@ -309,23 +309,23 @@ parent.__c.ReturnFromResumableSub(this,null);return;}
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=14352385;
- //BA.debugLineNum = 14352385;BA.debugLine="Dim animal As Animal";
+RDebugUtils.currentLine=1114113;
+ //BA.debugLineNum = 1114113;BA.debugLine="Dim animal As Animal";
 _animal = new b4a.example.animal();
-RDebugUtils.currentLine=14352386;
- //BA.debugLineNum = 14352386;BA.debugLine="animal.Initialize";
+RDebugUtils.currentLine=1114114;
+ //BA.debugLineNum = 1114114;BA.debugLine="animal.Initialize";
 _animal._initialize /*String*/ (null,ba);
-RDebugUtils.currentLine=14352388;
- //BA.debugLineNum = 14352388;BA.debugLine="Dim apijob As HttpJob";
+RDebugUtils.currentLine=1114116;
+ //BA.debugLineNum = 1114116;BA.debugLine="Dim apijob As HttpJob";
 _apijob = new b4a.example.httpjob();
-RDebugUtils.currentLine=14352389;
- //BA.debugLineNum = 14352389;BA.debugLine="apijob.Initialize(\"\", Me)";
+RDebugUtils.currentLine=1114117;
+ //BA.debugLineNum = 1114117;BA.debugLine="apijob.Initialize(\"\", Me)";
 _apijob._initialize /*String*/ (null,ba,"",parent);
-RDebugUtils.currentLine=14352390;
- //BA.debugLineNum = 14352390;BA.debugLine="apijob.Download(ApiUrl & \"/\" & id)";
+RDebugUtils.currentLine=1114118;
+ //BA.debugLineNum = 1114118;BA.debugLine="apijob.Download(ApiUrl & \"/\" & id)";
 _apijob._download /*String*/ (null,__ref._apiurl /*String*/ +"/"+BA.NumberToString(_id));
-RDebugUtils.currentLine=14352391;
- //BA.debugLineNum = 14352391;BA.debugLine="Wait For (apijob) JobDone(resultado As HttpJob)";
+RDebugUtils.currentLine=1114119;
+ //BA.debugLineNum = 1114119;BA.debugLine="Wait For (apijob) JobDone(resultado As HttpJob)";
 parent.__c.WaitFor("jobdone", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalesservice", "readbyid"), (Object)(_apijob));
 this.state = 5;
 return;
@@ -334,8 +334,8 @@ case 5:
 this.state = 1;
 _resultado = (b4a.example.httpjob) result[1];
 ;
-RDebugUtils.currentLine=14352393;
- //BA.debugLineNum = 14352393;BA.debugLine="If resultado.Success = False Then";
+RDebugUtils.currentLine=1114121;
+ //BA.debugLineNum = 1114121;BA.debugLine="If resultado.Success = False Then";
 if (true) break;
 
 case 1:
@@ -348,11 +348,11 @@ this.state = 3;
 case 3:
 //C
 this.state = 4;
-RDebugUtils.currentLine=14352394;
- //BA.debugLineNum = 14352394;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
-parent.__c.LogImpl("814352394","Error: "+_resultado._errormessage /*String*/ ,0);
-RDebugUtils.currentLine=14352395;
- //BA.debugLineNum = 14352395;BA.debugLine="Return Null";
+RDebugUtils.currentLine=1114122;
+ //BA.debugLineNum = 1114122;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
+parent.__c.LogImpl("01114122","Error: "+_resultado._errormessage /*String*/ ,0);
+RDebugUtils.currentLine=1114123;
+ //BA.debugLineNum = 1114123;BA.debugLine="Return Null";
 if (true) {
 parent.__c.ReturnFromResumableSub(this,parent.__c.Null);return;};
  if (true) break;
@@ -361,31 +361,31 @@ case 4:
 //C
 this.state = -1;
 ;
-RDebugUtils.currentLine=14352398;
- //BA.debugLineNum = 14352398;BA.debugLine="Dim jsonParser As JSONParser";
+RDebugUtils.currentLine=1114126;
+ //BA.debugLineNum = 1114126;BA.debugLine="Dim jsonParser As JSONParser";
 _jsonparser = new anywheresoftware.b4a.objects.collections.JSONParser();
-RDebugUtils.currentLine=14352399;
- //BA.debugLineNum = 14352399;BA.debugLine="jsonParser.Initialize(resultado.GetString)";
+RDebugUtils.currentLine=1114127;
+ //BA.debugLineNum = 1114127;BA.debugLine="jsonParser.Initialize(resultado.GetString)";
 _jsonparser.Initialize(_resultado._getstring /*String*/ (null));
-RDebugUtils.currentLine=14352400;
- //BA.debugLineNum = 14352400;BA.debugLine="Dim map As Map = jsonParser.NextObject";
+RDebugUtils.currentLine=1114128;
+ //BA.debugLineNum = 1114128;BA.debugLine="Dim map As Map = jsonParser.NextObject";
 _map = new anywheresoftware.b4a.objects.collections.Map();
 _map = _jsonparser.NextObject();
-RDebugUtils.currentLine=14352402;
- //BA.debugLineNum = 14352402;BA.debugLine="animal.id = map.Get(\"id\")";
+RDebugUtils.currentLine=1114130;
+ //BA.debugLineNum = 1114130;BA.debugLine="animal.id = map.Get(\"id\")";
 _animal._id /*int*/  = (int)(BA.ObjectToNumber(_map.Get((Object)("id"))));
-RDebugUtils.currentLine=14352403;
- //BA.debugLineNum = 14352403;BA.debugLine="animal.nombre = map.Get(\"nombre\")";
+RDebugUtils.currentLine=1114131;
+ //BA.debugLineNum = 1114131;BA.debugLine="animal.nombre = map.Get(\"nombre\")";
 _animal._nombre /*String*/  = BA.ObjectToString(_map.Get((Object)("nombre")));
-RDebugUtils.currentLine=14352404;
- //BA.debugLineNum = 14352404;BA.debugLine="animal.especieId = map.Get(\"especieId\")";
+RDebugUtils.currentLine=1114132;
+ //BA.debugLineNum = 1114132;BA.debugLine="animal.especieId = map.Get(\"especieId\")";
 _animal._especieid /*int*/  = (int)(BA.ObjectToNumber(_map.Get((Object)("especieId"))));
-RDebugUtils.currentLine=14352406;
- //BA.debugLineNum = 14352406;BA.debugLine="Return animal";
+RDebugUtils.currentLine=1114134;
+ //BA.debugLineNum = 1114134;BA.debugLine="Return animal";
 if (true) {
 parent.__c.ReturnFromResumableSub(this,(Object)(_animal));return;};
-RDebugUtils.currentLine=14352407;
- //BA.debugLineNum = 14352407;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1114135;
+ //BA.debugLineNum = 1114135;BA.debugLine="End Sub";
 if (true) break;
 
             }
@@ -428,26 +428,26 @@ parent.__c.ReturnFromResumableSub(this,null);return;}
 case 0:
 //C
 this.state = 1;
-RDebugUtils.currentLine=14417921;
- //BA.debugLineNum = 14417921;BA.debugLine="Dim json As JSONGenerator";
+RDebugUtils.currentLine=1179649;
+ //BA.debugLineNum = 1179649;BA.debugLine="Dim json As JSONGenerator";
 _json = new anywheresoftware.b4a.objects.collections.JSONParser.JSONGenerator();
-RDebugUtils.currentLine=14417922;
- //BA.debugLineNum = 14417922;BA.debugLine="json.Initialize(CreateMap(\"id\": animal.id, \"nombr";
+RDebugUtils.currentLine=1179650;
+ //BA.debugLineNum = 1179650;BA.debugLine="json.Initialize(CreateMap(\"id\": animal.id, \"nombr";
 _json.Initialize(parent.__c.createMap(new Object[] {(Object)("id"),(Object)(_animal._id /*int*/ ),(Object)("nombre"),(Object)(_animal._nombre /*String*/ ),(Object)("especieId"),(Object)(_animal._especieid /*int*/ )}));
-RDebugUtils.currentLine=14417924;
- //BA.debugLineNum = 14417924;BA.debugLine="Dim apijob As HttpJob";
+RDebugUtils.currentLine=1179652;
+ //BA.debugLineNum = 1179652;BA.debugLine="Dim apijob As HttpJob";
 _apijob = new b4a.example.httpjob();
-RDebugUtils.currentLine=14417925;
- //BA.debugLineNum = 14417925;BA.debugLine="apijob.Initialize(\"\", Me)";
+RDebugUtils.currentLine=1179653;
+ //BA.debugLineNum = 1179653;BA.debugLine="apijob.Initialize(\"\", Me)";
 _apijob._initialize /*String*/ (null,ba,"",parent);
-RDebugUtils.currentLine=14417926;
- //BA.debugLineNum = 14417926;BA.debugLine="apijob.PutString(ApiUrl & \"/\" & id, json.ToString";
+RDebugUtils.currentLine=1179654;
+ //BA.debugLineNum = 1179654;BA.debugLine="apijob.PutString(ApiUrl & \"/\" & id, json.ToString";
 _apijob._putstring /*String*/ (null,__ref._apiurl /*String*/ +"/"+BA.NumberToString(_id),_json.ToString());
-RDebugUtils.currentLine=14417927;
- //BA.debugLineNum = 14417927;BA.debugLine="apijob.GetRequest.SetContentType(\"application/jso";
+RDebugUtils.currentLine=1179655;
+ //BA.debugLineNum = 1179655;BA.debugLine="apijob.GetRequest.SetContentType(\"application/jso";
 _apijob._getrequest /*anywheresoftware.b4h.okhttp.OkHttpClientWrapper.OkHttpRequest*/ (null).SetContentType("application/json");
-RDebugUtils.currentLine=14417929;
- //BA.debugLineNum = 14417929;BA.debugLine="wait for (apijob) JobDone(resultado As HttpJob)";
+RDebugUtils.currentLine=1179657;
+ //BA.debugLineNum = 1179657;BA.debugLine="wait for (apijob) JobDone(resultado As HttpJob)";
 parent.__c.WaitFor("jobdone", ba, new anywheresoftware.b4a.shell.DebugResumableSub.DelegatableResumableSub(this, "animalesservice", "update"), (Object)(_apijob));
 this.state = 5;
 return;
@@ -456,8 +456,8 @@ case 5:
 this.state = 1;
 _resultado = (b4a.example.httpjob) result[1];
 ;
-RDebugUtils.currentLine=14417931;
- //BA.debugLineNum = 14417931;BA.debugLine="If resultado.Success = False Then";
+RDebugUtils.currentLine=1179659;
+ //BA.debugLineNum = 1179659;BA.debugLine="If resultado.Success = False Then";
 if (true) break;
 
 case 1:
@@ -470,21 +470,21 @@ this.state = 3;
 case 3:
 //C
 this.state = 4;
-RDebugUtils.currentLine=14417932;
- //BA.debugLineNum = 14417932;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
-parent.__c.LogImpl("814417932","Error: "+_resultado._errormessage /*String*/ ,0);
+RDebugUtils.currentLine=1179660;
+ //BA.debugLineNum = 1179660;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
+parent.__c.LogImpl("01179660","Error: "+_resultado._errormessage /*String*/ ,0);
  if (true) break;
 
 case 4:
 //C
 this.state = -1;
 ;
-RDebugUtils.currentLine=14417935;
- //BA.debugLineNum = 14417935;BA.debugLine="Return resultado.Success";
+RDebugUtils.currentLine=1179663;
+ //BA.debugLineNum = 1179663;BA.debugLine="Return resultado.Success";
 if (true) {
 parent.__c.ReturnFromResumableSub(this,(Object)(_resultado._success /*boolean*/ ));return;};
-RDebugUtils.currentLine=14417936;
- //BA.debugLineNum = 14417936;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1179664;
+ //BA.debugLineNum = 1179664;BA.debugLine="End Sub";
 if (true) break;
 
             }

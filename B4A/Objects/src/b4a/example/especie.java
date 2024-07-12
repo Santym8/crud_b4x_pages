@@ -42,19 +42,19 @@ public b4a.example.httputils2service _httputils2service = null;
 public String  _class_globals(b4a.example.especie __ref) throws Exception{
 __ref = this;
 RDebugUtils.currentModule="especie";
-RDebugUtils.currentLine=10027008;
- //BA.debugLineNum = 10027008;BA.debugLine="Sub Class_Globals";
-RDebugUtils.currentLine=10027009;
- //BA.debugLineNum = 10027009;BA.debugLine="Public id As Int";
+RDebugUtils.currentLine=1900544;
+ //BA.debugLineNum = 1900544;BA.debugLine="Sub Class_Globals";
+RDebugUtils.currentLine=1900545;
+ //BA.debugLineNum = 1900545;BA.debugLine="Public id As Int";
 _id = 0;
-RDebugUtils.currentLine=10027010;
- //BA.debugLineNum = 10027010;BA.debugLine="Public nombre As String";
+RDebugUtils.currentLine=1900546;
+ //BA.debugLineNum = 1900546;BA.debugLine="Public nombre As String";
 _nombre = "";
-RDebugUtils.currentLine=10027011;
- //BA.debugLineNum = 10027011;BA.debugLine="Public descripcion As String";
+RDebugUtils.currentLine=1900547;
+ //BA.debugLineNum = 1900547;BA.debugLine="Public descripcion As String";
 _descripcion = "";
-RDebugUtils.currentLine=10027013;
- //BA.debugLineNum = 10027013;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1900549;
+ //BA.debugLineNum = 1900549;BA.debugLine="End Sub";
 return "";
 }
 public String  _initialize(b4a.example.especie __ref,anywheresoftware.b4a.BA _ba) throws Exception{
@@ -63,10 +63,10 @@ innerInitialize(_ba);
 RDebugUtils.currentModule="especie";
 if (Debug.shouldDelegate(ba, "initialize", false))
 	 {return ((String) Debug.delegate(ba, "initialize", new Object[] {_ba}));}
-RDebugUtils.currentLine=10092544;
- //BA.debugLineNum = 10092544;BA.debugLine="Public Sub Initialize";
-RDebugUtils.currentLine=10092546;
- //BA.debugLineNum = 10092546;BA.debugLine="End Sub";
+RDebugUtils.currentLine=1966080;
+ //BA.debugLineNum = 1966080;BA.debugLine="Public Sub Initialize";
+RDebugUtils.currentLine=1966082;
+ //BA.debugLineNum = 1966082;BA.debugLine="End Sub";
 return "";
 }
 }

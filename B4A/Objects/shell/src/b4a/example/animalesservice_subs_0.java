@@ -15,7 +15,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _create(RemoteObject __ref,RemoteObject _animal) throws Exception{
 try {
-		Debug.PushSubsStack("Create (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,10);
+		Debug.PushSubsStack("Create (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,10);
 if (RapidSub.canDelegate("create")) { return __ref.runUserSub(false, "animalesservice","create", __ref, _animal);}
 ResumableSub_Create rsub = new ResumableSub_Create(null,__ref,_animal);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -47,7 +47,7 @@ RemoteObject _map = RemoteObject.declareNull("anywheresoftware.b4a.objects.colle
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("Create (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,10);
+		Debug.PushSubsStack("Create (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,10);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -104,7 +104,7 @@ case 3:
 this.state = 4;
  BA.debugLineNum = 22;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
 Debug.ShouldStop(2097152);
-parent.__c.runVoidMethod ("LogImpl","814286860",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
+parent.__c.runVoidMethod ("LogImpl","01048588",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
  BA.debugLineNum = 23;BA.debugLine="Return Null";
 Debug.ShouldStop(4194304);
 if (true) {
@@ -156,7 +156,7 @@ public static void  _jobdone(RemoteObject __ref,RemoteObject _resultado) throws 
 }
 public static RemoteObject  _delete(RemoteObject __ref,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("Delete (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,80);
+		Debug.PushSubsStack("Delete (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,80);
 if (RapidSub.canDelegate("delete")) { return __ref.runUserSub(false, "animalesservice","delete", __ref, _id);}
 ResumableSub_Delete rsub = new ResumableSub_Delete(null,__ref,_id);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -185,7 +185,7 @@ RemoteObject _resultado = RemoteObject.declareNull("b4a.example.httpjob");
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("Delete (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,80);
+		Debug.PushSubsStack("Delete (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,80);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -233,7 +233,7 @@ case 3:
 this.state = 4;
  BA.debugLineNum = 87;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
 Debug.ShouldStop(4194304);
-parent.__c.runVoidMethod ("LogImpl","814483463",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
+parent.__c.runVoidMethod ("LogImpl","01245191",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
  if (true) break;
 
 case 4:
@@ -260,7 +260,7 @@ finally {
 }
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,6);
+		Debug.PushSubsStack("Initialize (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,6);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "animalesservice","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -281,7 +281,7 @@ finally {
 		}}
 public static RemoteObject  _readbyid(RemoteObject __ref,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("ReadById (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,37);
+		Debug.PushSubsStack("ReadById (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,37);
 if (RapidSub.canDelegate("readbyid")) { return __ref.runUserSub(false, "animalesservice","readbyid", __ref, _id);}
 ResumableSub_ReadById rsub = new ResumableSub_ReadById(null,__ref,_id);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -313,7 +313,7 @@ RemoteObject _map = RemoteObject.declareNull("anywheresoftware.b4a.objects.colle
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("ReadById (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,37);
+		Debug.PushSubsStack("ReadById (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,37);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -367,7 +367,7 @@ case 3:
 this.state = 4;
  BA.debugLineNum = 47;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
 Debug.ShouldStop(16384);
-parent.__c.runVoidMethod ("LogImpl","814352394",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
+parent.__c.runVoidMethod ("LogImpl","01114122",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
  BA.debugLineNum = 48;BA.debugLine="Return Null";
 Debug.ShouldStop(32768);
 if (true) {
@@ -417,7 +417,7 @@ finally {
 }
 public static RemoteObject  _update(RemoteObject __ref,RemoteObject _id,RemoteObject _animal) throws Exception{
 try {
-		Debug.PushSubsStack("Update (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,62);
+		Debug.PushSubsStack("Update (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,62);
 if (RapidSub.canDelegate("update")) { return __ref.runUserSub(false, "animalesservice","update", __ref, _id, _animal);}
 ResumableSub_Update rsub = new ResumableSub_Update(null,__ref,_id,_animal);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -449,7 +449,7 @@ RemoteObject _resultado = RemoteObject.declareNull("b4a.example.httpjob");
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("Update (animalesservice) ","animalesservice",7,__ref.getField(false, "ba"),__ref,62);
+		Debug.PushSubsStack("Update (animalesservice) ","animalesservice",2,__ref.getField(false, "ba"),__ref,62);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -507,7 +507,7 @@ case 3:
 this.state = 4;
  BA.debugLineNum = 74;BA.debugLine="Log(\"Error: \" & resultado.ErrorMessage)";
 Debug.ShouldStop(512);
-parent.__c.runVoidMethod ("LogImpl","814417932",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
+parent.__c.runVoidMethod ("LogImpl","01179660",RemoteObject.concat(RemoteObject.createImmutable("Error: "),_resultado.getField(true,"_errormessage" /*RemoteObject*/ )),0);
  if (true) break;
 
 case 4:

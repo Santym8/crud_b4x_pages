@@ -8,7 +8,7 @@ public class animalpage_subs_0 {
 
 public static RemoteObject  _b4xpage_created(RemoteObject __ref,RemoteObject _root1) throws Exception{
 try {
-		Debug.PushSubsStack("B4XPage_Created (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,18);
+		Debug.PushSubsStack("B4XPage_Created (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,18);
 if (RapidSub.canDelegate("b4xpage_created")) { return __ref.runUserSub(false, "animalpage","b4xpage_created", __ref, _root1);}
 Debug.locals.put("Root1", _root1);
  BA.debugLineNum = 18;BA.debugLine="Private Sub B4XPage_Created (Root1 As B4XView)";
@@ -31,7 +31,7 @@ finally {
 		}}
 public static void  _btndelete_click(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("btnDelete_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,48);
+		Debug.PushSubsStack("btnDelete_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,48);
 if (RapidSub.canDelegate("btndelete_click")) { __ref.runUserSub(false, "animalpage","btndelete_click", __ref); return;}
 ResumableSub_btnDelete_Click rsub = new ResumableSub_btnDelete_Click(null,__ref);
 rsub.resume(null, null);
@@ -55,7 +55,7 @@ RemoteObject _success = RemoteObject.createImmutable(false);
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("btnDelete_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,48);
+		Debug.PushSubsStack("btnDelete_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,48);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -145,7 +145,7 @@ this.state = 12;
 this.catchState = 0;
  BA.debugLineNum = 62;BA.debugLine="Log(LastException)";
 Debug.ShouldStop(536870912);
-parent.__c.runVoidMethod ("LogImpl","815073294",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
+parent.__c.runVoidMethod ("LogImpl","01572878",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
  BA.debugLineNum = 63;BA.debugLine="Msgbox(\"Error\",\"Error\")";
 Debug.ShouldStop(1073741824);
 parent.__c.runVoidMethodAndSync ("Msgbox",(Object)(BA.ObjectToCharSequence("Error")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),__ref.getField(false, "ba"));
@@ -182,7 +182,7 @@ public static void  _complete(RemoteObject __ref,RemoteObject _success) throws E
 }
 public static void  _btnread_click(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("btnRead_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,27);
+		Debug.PushSubsStack("btnRead_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,27);
 if (RapidSub.canDelegate("btnread_click")) { __ref.runUserSub(false, "animalpage","btnread_click", __ref); return;}
 ResumableSub_btnRead_Click rsub = new ResumableSub_btnRead_Click(null,__ref);
 rsub.resume(null, null);
@@ -206,7 +206,7 @@ RemoteObject _animal = RemoteObject.declareNull("b4a.example.animal");
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("btnRead_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,27);
+		Debug.PushSubsStack("btnRead_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,27);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -293,7 +293,7 @@ this.state = 12;
 this.catchState = 0;
  BA.debugLineNum = 41;BA.debugLine="Log(LastException)";
 Debug.ShouldStop(256);
-parent.__c.runVoidMethod ("LogImpl","815007758",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
+parent.__c.runVoidMethod ("LogImpl","01507342",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
  BA.debugLineNum = 42;BA.debugLine="Msgbox(\"No hay datos\",\"Error\")";
 Debug.ShouldStop(512);
 parent.__c.runVoidMethodAndSync ("Msgbox",(Object)(BA.ObjectToCharSequence("No hay datos")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),__ref.getField(false, "ba"));
@@ -328,7 +328,7 @@ finally {
 }
 public static void  _btnsave_click(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("btnSave_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,89);
+		Debug.PushSubsStack("btnSave_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,89);
 if (RapidSub.canDelegate("btnsave_click")) { __ref.runUserSub(false, "animalpage","btnsave_click", __ref); return;}
 ResumableSub_btnSave_Click rsub = new ResumableSub_btnSave_Click(null,__ref);
 rsub.resume(null, null);
@@ -353,7 +353,7 @@ RemoteObject _animalresult = RemoteObject.declareNull("b4a.example.animal");
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("btnSave_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,89);
+		Debug.PushSubsStack("btnSave_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,89);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -446,7 +446,7 @@ this.state = 12;
 this.catchState = 0;
  BA.debugLineNum = 105;BA.debugLine="Log(LastException)";
 Debug.ShouldStop(256);
-parent.__c.runVoidMethod ("LogImpl","815204368",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
+parent.__c.runVoidMethod ("LogImpl","01703952",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
  BA.debugLineNum = 106;BA.debugLine="Msgbox(\"Error\",\"Error\")";
 Debug.ShouldStop(512);
 parent.__c.runVoidMethodAndSync ("Msgbox",(Object)(BA.ObjectToCharSequence("Error")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),__ref.getField(false, "ba"));
@@ -481,7 +481,7 @@ finally {
 }
 public static void  _btnupdate_click(RemoteObject __ref) throws Exception{
 try {
-		Debug.PushSubsStack("btnUpdate_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,68);
+		Debug.PushSubsStack("btnUpdate_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,68);
 if (RapidSub.canDelegate("btnupdate_click")) { __ref.runUserSub(false, "animalpage","btnupdate_click", __ref); return;}
 ResumableSub_btnUpdate_Click rsub = new ResumableSub_btnUpdate_Click(null,__ref);
 rsub.resume(null, null);
@@ -506,7 +506,7 @@ RemoteObject _success = RemoteObject.createImmutable(false);
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("btnUpdate_Click (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,68);
+		Debug.PushSubsStack("btnUpdate_Click (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,68);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -599,7 +599,7 @@ this.state = 12;
 this.catchState = 0;
  BA.debugLineNum = 84;BA.debugLine="Log(LastException)";
 Debug.ShouldStop(524288);
-parent.__c.runVoidMethod ("LogImpl","815138832",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
+parent.__c.runVoidMethod ("LogImpl","01638416",BA.ObjectToString(parent.__c.runMethod(false,"LastException",__ref.getField(false, "ba"))),0);
  BA.debugLineNum = 85;BA.debugLine="Msgbox(\"Error\",\"Error\")";
 Debug.ShouldStop(1048576);
 parent.__c.runVoidMethodAndSync ("Msgbox",(Object)(BA.ObjectToCharSequence("Error")),(Object)(BA.ObjectToCharSequence(RemoteObject.createImmutable("Error"))),__ref.getField(false, "ba"));
@@ -651,7 +651,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (animalpage) ","animalpage",8,__ref.getField(false, "ba"),__ref,12);
+		Debug.PushSubsStack("Initialize (animalpage) ","animalpage",3,__ref.getField(false, "ba"),__ref,12);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "animalpage","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);

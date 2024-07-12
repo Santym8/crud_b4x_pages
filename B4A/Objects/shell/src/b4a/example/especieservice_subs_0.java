@@ -19,7 +19,7 @@ return RemoteObject.createImmutable("");
 }
 public static RemoteObject  _create(RemoteObject __ref,RemoteObject _especie) throws Exception{
 try {
-		Debug.PushSubsStack("Create (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,13);
+		Debug.PushSubsStack("Create (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,13);
 if (RapidSub.canDelegate("create")) { return __ref.runUserSub(false, "especieservice","create", __ref, _especie);}
 ResumableSub_Create rsub = new ResumableSub_Create(null,__ref,_especie);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -49,7 +49,7 @@ RemoteObject _map = RemoteObject.declareNull("anywheresoftware.b4a.objects.colle
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("Create (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,13);
+		Debug.PushSubsStack("Create (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,13);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -149,7 +149,7 @@ public static void  _jobdone(RemoteObject __ref,RemoteObject _resultado) throws 
 }
 public static RemoteObject  _delete(RemoteObject __ref,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("Delete (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,71);
+		Debug.PushSubsStack("Delete (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,71);
 if (RapidSub.canDelegate("delete")) { return __ref.runUserSub(false, "especieservice","delete", __ref, _id);}
 ResumableSub_Delete rsub = new ResumableSub_Delete(null,__ref,_id);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -177,7 +177,7 @@ RemoteObject _resultado = RemoteObject.declareNull("b4a.example.httpjob");
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("Delete (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,71);
+		Debug.PushSubsStack("Delete (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,71);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -226,7 +226,7 @@ finally {
 }
 public static RemoteObject  _initialize(RemoteObject __ref,RemoteObject _ba) throws Exception{
 try {
-		Debug.PushSubsStack("Initialize (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,9);
+		Debug.PushSubsStack("Initialize (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,9);
 if (RapidSub.canDelegate("initialize")) { return __ref.runUserSub(false, "especieservice","initialize", __ref, _ba);}
 __ref.runVoidMethodAndSync("innerInitializeHelper", _ba);
 Debug.locals.put("ba", _ba);
@@ -247,7 +247,7 @@ finally {
 		}}
 public static RemoteObject  _readbyid(RemoteObject __ref,RemoteObject _id) throws Exception{
 try {
-		Debug.PushSubsStack("ReadById (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,38);
+		Debug.PushSubsStack("ReadById (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,38);
 if (RapidSub.canDelegate("readbyid")) { return __ref.runUserSub(false, "especieservice","readbyid", __ref, _id);}
 ResumableSub_ReadById rsub = new ResumableSub_ReadById(null,__ref,_id);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -277,7 +277,7 @@ RemoteObject _map = RemoteObject.declareNull("anywheresoftware.b4a.objects.colle
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("ReadById (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,38);
+		Debug.PushSubsStack("ReadById (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,38);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
@@ -368,7 +368,7 @@ finally {
 }
 public static RemoteObject  _update(RemoteObject __ref,RemoteObject _id,RemoteObject _especie) throws Exception{
 try {
-		Debug.PushSubsStack("Update (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,58);
+		Debug.PushSubsStack("Update (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,58);
 if (RapidSub.canDelegate("update")) { return __ref.runUserSub(false, "especieservice","update", __ref, _id, _especie);}
 ResumableSub_Update rsub = new ResumableSub_Update(null,__ref,_id,_especie);
 rsub.remoteResumableSub = anywheresoftware.b4a.pc.PCResumableSub.createDebugResumeSubForFilter();
@@ -399,7 +399,7 @@ RemoteObject _resultado = RemoteObject.declareNull("b4a.example.httpjob");
 @Override
 public void resume(BA ba, RemoteObject result) throws Exception{
 try {
-		Debug.PushSubsStack("Update (especieservice) ","especieservice",5,__ref.getField(false, "ba"),__ref,58);
+		Debug.PushSubsStack("Update (especieservice) ","especieservice",7,__ref.getField(false, "ba"),__ref,58);
 Debug.locals = rsLocals;Debug.currentSubFrame.locals = rsLocals;
 
     while (true) {
